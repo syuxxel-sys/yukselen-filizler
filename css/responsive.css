@@ -1,0 +1,16 @@
+@media (max-width: 660px) {
+  .shell { width: calc(100% - 18px); margin: 10px auto 28px; }
+  .hero { padding: 26px 22px 29px; border-radius: 16px; }
+  .brand { align-items: center; justify-content: center; gap: 8px; }
+  .brand__logo { width: 62px; height: 62px; }
+  .brand__title { font-size: 30px; letter-spacing: .06em; }
+  .hero__lead { margin-top: 16px; font-size: 14px; }
+  .perks { display: grid; justify-content: center; gap: 10px; }
+  .perks li { max-width: none; }
+  .paper { margin-top: 12px; padding: 25px 18px; border-radius: 16px; }
+  .form-grid { grid-template-columns: 1fr; gap: 0; }
+  .notification { right: 16px; bottom: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}

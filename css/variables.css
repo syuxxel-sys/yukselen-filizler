@@ -1,0 +1,21 @@
+:root {
+  --green: #176a43;
+  --green-dark: #104e33;
+  --green-hover: #217d4e;
+  --green-pale: #edf6ed;
+  --ink: #21332a;
+  --muted: #66776d;
+  --border: #dbe6dd;
+  --background: #f5f8f4;
+  --surface: #ffffff;
+  --error: #b42318;
+  --error-pale: #fff1f0;
+  --warning: #7a5710;
+  --warning-pale: #fff8e6;
+  --radius-small: 10px;
+  --radius-medium: 16px;
+  --radius-large: 23px;
+  --shadow: 0 18px 50px rgba(14, 56, 32, .07);
+  --focus: 0 0 0 3px #e2f2e6;
+  --font: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}

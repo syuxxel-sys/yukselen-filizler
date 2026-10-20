@@ -1,0 +1,11 @@
+body {
+  min-width: 320px;
+  background: var(--background);
+  color: var(--ink);
+  font-family: var(--font);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+.svg-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.icon { width: 20px; height: 20px; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+code { padding: 2px 5px; border-radius: 4px; background: rgba(0, 0, 0, .06); font-size: .9em; }

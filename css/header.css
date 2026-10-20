@@ -1,0 +1,10 @@
+.hero { position: relative; overflow: hidden; padding: 36px 42px 40px; border-radius: var(--radius-large); background: linear-gradient(110deg, rgba(12, 67, 43, .98), rgba(26, 119, 67, .92)), radial-gradient(circle at 80% 0%, #73a974, transparent 45%); color: #fff; text-align: center; box-shadow: 0 14px 38px rgba(17, 74, 45, .18); }
+.hero::after { position: absolute; top: -90px; right: -65px; width: 340px; height: 340px; border: 65px solid rgba(189, 237, 184, .085); border-radius: 48% 52%; content: ""; transform: rotate(40deg); }
+.brand { position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 10px; }
+.brand__logo { display: grid; width: 72px; height: 72px; place-items: center; }
+.brand__logo img { width: 100%; height: 100%; object-fit: contain; }
+.brand__title { font-family: Georgia, "Times New Roman", serif; font-size: 38px; font-weight: 700; letter-spacing: .08em; }
+.hero__lead { position: relative; z-index: 1; margin: 19px 0 24px; color: #e0efe3; font-size: 16px; }
+.perks { position: relative; z-index: 1; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px 22px; }
+.perks li { display: flex; max-width: 190px; align-items: center; gap: 9px; color: #ecf5ef; font-size: 12px; }
+.perks .icon { color: #b3e6be; }
